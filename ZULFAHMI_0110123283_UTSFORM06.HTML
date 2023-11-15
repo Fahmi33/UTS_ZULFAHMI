@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+    text-align: center;
+} 
+
+menu{
+    text-align: right;
+}
+
+header {
+    background-color: rgb(255, 182, 94);
+    color: rgb(0, 136, 255);
+    text-align: 1cm 0;
+}
+
+section {
+    padding: 1em;
+    margin-bottom: 25px;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 0.8em 0;
+}
+    </style>
+</head>
+<body>
+    <h1>FORM BERITA</h1>
+    <div class="menu">
+
+        <a href="#">Home</a> >
+        <a href="#">Admin</a> >
+       
+</div>
+<br>
+<fieldset>
+    <legend>FORM BERITA</legend>
+    <label for="NAMA">Nama Masjid</label>
+    <input type="text" name="Nama">
+    <br>
+    <br>
+    <label for="Judul Berita">Judul Berita</label>
+    <input type="text" name="Judul Berita">
+    <br>
+    <br>
+                <div class="form-container">
+                <label>Isi Berita:</label>
+                <textarea name="Isi Berita"></textarea>
+            </div>
+        </br>
+        <br>
+        <label for="Penulis">Penulis</label>
+        <input type="text" name="Penulis">
+        <br>
+        <br>
+        <label for="Tgl terbit">Tgl terbit</label>
+        <input type="date" name="Tgl Terbit">
+        <br>
+    
+    <br>
+    <label for="Status Berita">Status Berita</label>
+    <label><input type="radio">Draft</label>
+    <label><input type="radio">Submitt</label>
+    <label><input type="radio">Review</label>
+    <label><input type="radio">Reject</label>
+    <label><input type="radio">Approve</label>
+    <br>
+    <br>
+    <input type="submit" value="Simpan">
+    <input type="submit" value="Update">
+    <input type="submit" value="Hapus">
+</fieldset>
+</body>
+</html>
